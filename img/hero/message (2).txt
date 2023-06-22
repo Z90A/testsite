@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Home</title>
+        <meta name="description" content="Page-specific description">
+        <meta name="keywords" content="Page-specific keywords">
+        <link rel="shortcut icon" href="static/images/favicons/animeicon.ico">
+        <link rel="shortcut icon" href="static/images/favicons/animeicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="static/images/favicons/animeicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="static/images/favicons/animeicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="static/css/screen.min.css">
+        <link rel="stylesheet" href="static/css/custom.min.css">
+    </head>
+    <body>
+        <!-- Page header-->
+        <header class="page-header">
+            <div class="page-header__inner">
+                <!-- Page navigation-->
+                <nav class="page-nav">
+                    <a class="page-nav__link" href="#">Home</a>
+                    <a class="page-nav__link" href="about.html">About</a>
+                    <a class="page-nav__link" href="products.html">Products</a>
+                    <a class="page-nav__link" href="contact.html">Contact</a>
+                </nav>
+                <!-- Actions-->
+                <div class="actions">
+                    <a class="actions__link" href="#">Register</a>
+                    <a class="actions__link" href="#">Log in</a>
+                </div>
+            </div>
+        </header>
+        <!-- Promo-->
+        <section class="promo">
+            <div class="promo__inner">
+                <div class="promo__header">
+                    <div class="promo__logo">
+                        <!-- Logo-->
+                        <h1 class="logo">
+                            <span class="logo__text"></span>
+                        </h1>
+                    </div>
+                    <div class="promo__proposal"></div>
+                </div>
+                <!-- Slider-->
+                <div class="slider">
+                    <input class="slider__radio" id="button-one" type="radio" name="controls" checked="checked">
+                    <label class="slider__control" for="button-one"></label>
+                    <input class="slider__radio" id="button-two" type="radio" name="controls"> 
+                    <label class="slider__control" for="button-two"></label> 
+                    <input class="slider__radio" id="button-three" type="radio" name="controls"> 
+                    <label class="slider__control" for="button-three"></label>
+                    <ul class="slider__items">
+                        <li class="slider__item" id="slide-one">
+                            <div class="slider__item-info">
+                                <h2 class="slider__item-title">As of 16 May 2023, some of the best upcoming anime series for fall 2022 include</h2>
+                                <p class="slider__item-date">16 May 2023</p>
+                                <p class="slider__item-text">Demon Slayer, Attack on Titan, Classroom of the Elite, Overlord, To Your Eternity, Blue Lock, Spy x Family, Made in Abyss Season 2, The Rising of the Shield Hero Season 2, The Reason Why Raeliana Ended up at the Duke's Mansion, and Jujutsu Kaisen Season 2.</p>
+                                <p class="slider__item-text">To Your Eternity won Best Drama at Crunchyroll's 2022 Anime Awards for its compelling vocal performances and philosophical narrative. The Reason Why Raeliana Ended up at the Duke's Mansion is the best isekai anime of Spring 2023, based on a manhwa.</p>
+                            </div>
+                            <figure class="slider__item-image"><img src="static\images\bg\Anime2.png" alt="Some picture">
+                                <figcaption>
+                                    <a href="#"></a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="slider__item" id="slide-two">
+                            <div class="slider__item-info">
+                                <h2 class="slider__item-title">Mashle: Magic and Muscles (Japanese: マッシュル, Hepburn: Masshuru)</h2>
+                                <p class="slider__item-date">January 27, 2020</p>
+                                <p class="slider__item-text">Set in a magical world in which an individual's position within society is defined by their power and skill with magic, Mash Burnedead is a young man without so much as an ounce of magic in his blood.</p>
+                                <p class="slider__item-text">In order to live a peaceful life with his adoptive father, Regro, Mash will need to become a Divine Visionary (神覚者, Shinkakusha), a title which is only given to exceptional students from the Easton Magic Academy.</p>
+                                <p class="slider__item-text">Despite having no magic whatsoever, Mash goes to the magic school, determined to survive and show the world that muscles can beat magic.</p>
+                            </div>
+                            <figure class="slider__item-image">
+                                <img src="static\images\Anime3.png" alt="Some picture">
+                                <figcaption><a href="#"></a>
+                                </figcaption>
+                            </figure>
+                        </li>
+                            <li class="slider__item" id="slide-three">
+                                <div class="slider__item-info">
+                                    <h2 class="slider__item-title">Blue Lock (Japanese: ブルーロック, Hepburn: Burū Rokku) (stylized as BLUELOCK)</h2>
+                                    <p class="slider__item-date">August 1, 2018 present</p>
+                                    <p class="slider__item-text">High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.</p>
+                                    <p class="slider__item-text"></p>
+                                </div>
+                                <figure class="slider__item-image">
+                                    <img src="static\images\Anime4.png" alt="Some picture">
+                                    <figcaption>
+                                        <a href="#"></a>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Page content-->
+            <main class="page-content">
+                <div class="page-content__inner">
+                    <!-- Choice-->
+                    <div class="choice">
+                        <h2 class="choice__title"></h2>
+                        <p class="choice__text"></p>
+                    </div>
+           
+
+                    <!-- Request-->
+                    <div class="request">
+                        <h2 class="request__title">Form</h2>
+                        <p class="request__text">Send us a message!</p>
+                        <p class="request__text">Contact us via the link below and we&grave;ll get back at you as soon as possible!</p>
+                        <a class="request__btn" href="#">Contact us!</a>
+                    </div>
+                    <!-- News-->
+                    <div class="news">
+                        <h2 class="news__title">Newsletter</h2>
+                        <p class="news__text">Be the first to know our latest updates!</p>
+                        <!-- Subscribe form-->
+                        <form class="subscribe-form" action="#" method="post"><input type="email" name="Emailaddress" placeholder="Email address" id=""> 
+                            <input type="submit" value="Subscribe!"></form>
+                        </div>
+                    </div>
+                </main>
+                <!-- Page footer-->
+                <footer class="page-footer">
+                    <div class="page-footer__inner">
+                        <div class="page-footer__copyright"><br></div>
+                        <!-- Social-->
+                        <div class="social">
+                            <span class="social__title">Follow us:</span>
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a class="social__link social__link_fb" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Facebook">Facebook</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_tw" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Twitter">Twitter</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_gplus" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Google+">Google+</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_in" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Linkedin">Linkedin</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_rss" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Rss feed">Rss feed</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_fl" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="Flickr">Flickr</a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link social__link_you" href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" title="YouTube">YouTube</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </body>
+            </html>
